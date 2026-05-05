@@ -14,9 +14,9 @@ const Penutup = () => {
         <p className="font-sans text-sm tracking-[0.2em] text-gray-400 uppercase mb-4">
           Hormat Kami
         </p>
-        
-        <h2 className="font-serif text-5xl md:text-6xl text-dark mb-4">Ani & Budi</h2>
-        
+
+        <h2 className="font-serif text-5xl md:text-6xl text-dark mb-4">Onyot & Intan</h2>
+
         <div className="text-gold text-2xl mt-8">✧ ✧ ✧</div>
       </FadeIn>
     </section>
