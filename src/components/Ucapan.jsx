@@ -26,7 +26,8 @@ const Ucapan = () => {
   return (
     <section className="py-24 px-6 bg-[var(--color-cream-dark)] text-center">
       <FadeIn className="max-w-3xl mx-auto">
-        <h2 className="font-serif text-4xl text-dark mb-4">Ucapan & Doa</h2>
+        <h2 className="font-serif text-4xl text-dark mb-2">Ucapan & Doa</h2>
+        <img src="/images/gold_line_divider.png" alt="Divider" className="mx-auto w-32 md:w-48 mb-6 mix-blend-multiply opacity-70" />
         <p className="font-sans text-gray-500 font-light mb-12">
           Berikan ucapan dan doa restu untuk kedua mempelai.
         </p>

@@ -19,7 +19,8 @@ const Hadiah = () => {
   return (
     <section className="py-24 px-6 bg-white text-center">
       <FadeIn className="max-w-2xl mx-auto">
-        <h2 className="font-serif text-4xl text-dark mb-4">Kirim Hadiah</h2>
+        <h2 className="font-serif text-4xl text-dark mb-2">Kirim Hadiah</h2>
+        <img src="/images/gold_line_divider.png" alt="Divider" className="mx-auto w-32 md:w-48 mb-6 mix-blend-multiply opacity-70" />
         <p className="font-sans text-gray-500 font-light mb-12">
           Doa restu Anda merupakan karunia yang sangat berarti bagi kami. 
           Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless.

@@ -33,7 +33,8 @@ const Journey = () => {
   return (
     <section className="py-24 px-6 bg-white overflow-hidden">
       <FadeIn className="text-center mb-16">
-        <h2 className="font-serif text-4xl text-dark mb-4">Our Love Journey</h2>
+        <h2 className="font-serif text-4xl text-dark mb-2">Our Love Journey</h2>
+        <img src="/images/gold_line_divider.png" alt="Divider" className="mx-auto w-32 md:w-48 mb-6 mix-blend-multiply opacity-70" />
         <p className="font-sans text-gray-500 font-light max-w-lg mx-auto">
           Perjalanan singkat cerita cinta kami.
         </p>

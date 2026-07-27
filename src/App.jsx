@@ -27,16 +27,16 @@ function App() {
 
   return (
     <div className="font-sans bg-[var(--color-cream)] text-dark min-h-screen">
-      
+
       {/* 1. Cover Section (Always visible initially, full screen) */}
       <div className={`transition-all duration-1000 ${isOpen ? 'opacity-0 pointer-events-none hidden' : 'opacity-100'}`}>
-         <Cover onOpen={() => setIsOpen(true)} />
+        <Cover onOpen={() => setIsOpen(true)} />
       </div>
 
       {/* Main Content (Visible after opening) */}
       <div className={`transition-all duration-1000 transform ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 hidden'}`}>
         {/* We can show a smaller hero header if needed, but per request, we just scroll down */}
-        
+
         <Ayat />
         <Mempelai />
         <Journey />
@@ -48,7 +48,7 @@ function App() {
         <Penutup />
 
       </div>
-      
+
     </div>
   );
 }

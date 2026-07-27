@@ -4,7 +4,8 @@ const Rsvp = () => {
   return (
     <section className="py-24 px-6 bg-[var(--color-cream-dark)] text-center">
       <FadeIn className="max-w-xl mx-auto bg-white p-10 md:p-12 rounded-3xl shadow-2xl">
-        <h2 className="font-serif text-4xl text-dark mb-4">RSVP</h2>
+        <h2 className="font-serif text-4xl text-dark mb-2">RSVP</h2>
+        <img src="/images/gold_line_divider.png" alt="Divider" className="mx-auto w-32 md:w-48 mb-6 mix-blend-multiply opacity-70" />
         <p className="font-sans text-gray-500 font-light mb-8 text-sm">
           Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir.
         </p>

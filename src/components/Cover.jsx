@@ -43,6 +43,32 @@ const Cover = ({ onOpen }) => {
         <div className="absolute inset-0 bg-black/40"></div>
       </div>
 
+      {/* Top Left Floral Ornament */}
+      <motion.img
+        src="/images/floral_corner_tl.png"
+        alt="Floral Ornament"
+        className="absolute top-0 left-0 w-64 md:w-80 opacity-90 pointer-events-none mix-blend-multiply z-10"
+        initial={{ y: -20, x: -20, opacity: 0 }}
+        animate={{ y: [0, -10, 0], x: 0, opacity: 0.9 }}
+        transition={{
+          y: { duration: 5, repeat: Infinity, ease: "easeInOut" },
+          opacity: { duration: 1 }
+        }}
+      />
+
+      {/* Bottom Right Floral Ornament */}
+      <motion.img
+        src="/images/floral_corner_br.png"
+        alt="Floral Ornament"
+        className="absolute bottom-0 right-0 w-64 md:w-80 opacity-90 pointer-events-none mix-blend-multiply z-10"
+        initial={{ y: 20, x: 20, opacity: 0 }}
+        animate={{ y: [0, 10, 0], x: 0, opacity: 0.9 }}
+        transition={{
+          y: { duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 },
+          opacity: { duration: 1 }
+        }}
+      />
+
       {/* Content */}
       <div className="relative z-10 text-center text-white px-6 w-full max-w-md mx-auto flex flex-col items-center h-full py-12 justify-between">
 
@@ -53,7 +79,7 @@ const Cover = ({ onOpen }) => {
         <FadeIn delay={0.4} className="my-auto">
           <h1 className="font-serif text-5xl md:text-7xl mb-6">Yusuf & Intan</h1>
           <p className="font-sans text-lg md:text-xl tracking-widest font-light">
-            25 . 08 . 2026
+            28 . 08 . 2026
           </p>
         </FadeIn>
 

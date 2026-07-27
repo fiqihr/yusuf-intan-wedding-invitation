@@ -13,8 +13,10 @@ const Mempelai = () => {
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-12 md:gap-8">
 
         {/* Bride */}
-        <FadeIn direction="left" className="flex-1 flex flex-col items-center">
-          <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden mb-6 border-4 border-white shadow-xl">
+        <FadeIn direction="left" className="flex-1 flex flex-col items-center relative">
+          {/* Line Art Leaf */}
+          <img src="/images/gold_line_leaf.png" alt="Leaf Ornament" className="absolute -top-10 -left-6 md:left-4 w-40 md:w-56 opacity-60 mix-blend-multiply pointer-events-none rotate-[-15deg] z-0" />
+          <div className="relative z-10 w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden mb-6 border-4 border-white shadow-xl">
             <img
               src="https://images.unsplash.com/photo-1541250848049-b4f714280b2a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
               alt="Mempelai Wanita"
@@ -31,13 +33,19 @@ const Mempelai = () => {
         </FadeIn>
 
         {/* Divider */}
-        <FadeIn delay={0.3} className="text-6xl font-serif text-[var(--color-gold)] opacity-50">
-          &
+        <FadeIn delay={0.3} className="flex flex-col items-center justify-center my-8 md:my-0">
+          <img
+            src="/images/floral_divider.png"
+            alt="Floral Divider"
+            className="w-32 md:w-48 mix-blend-multiply opacity-80"
+          />
         </FadeIn>
 
         {/* Groom */}
-        <FadeIn direction="right" className="flex-1 flex flex-col items-center">
-          <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden mb-6 border-4 border-white shadow-xl">
+        <FadeIn direction="right" className="flex-1 flex flex-col items-center relative">
+          {/* Line Art Leaf (Flipped) */}
+          <img src="/images/gold_line_leaf.png" alt="Leaf Ornament" className="absolute -bottom-10 -right-6 md:right-4 w-40 md:w-56 opacity-60 mix-blend-multiply pointer-events-none scale-x-[-1] rotate-[15deg] z-0" />
+          <div className="relative z-10 w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden mb-6 border-4 border-white shadow-xl">
             <img
               src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
               alt="Mempelai Pria"
