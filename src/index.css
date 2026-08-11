@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Meow+Script&display=swap');
 
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
   --font-sans: 'Lato', sans-serif;
   --font-serif: 'Meow Script', cursive;
-  
-  --color-cream: #F5F1E8;
-  --color-cream-dark: #E6DFCD;
-  --color-gold: #C5A880;
-  --color-dark: #2C2C2C;
+
+  --color-cream: #eae3e9;
+  --color-cream-dark: #f5f1e8;
+  --color-gold: #e0cc9c;
+  --color-dark: #3e2a27;
+  --color-maroon: #4a0a15;
 }
 
 html {

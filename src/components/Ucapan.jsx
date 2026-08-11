@@ -24,7 +24,7 @@ const Ucapan = () => {
   };
 
   return (
-    <section className="py-24 px-6 bg-[var(--color-cream-dark)] text-center">
+    <section className="py-24 px-6 bg-cream-dark text-center">
       <FadeIn className="max-w-3xl mx-auto">
         <h2 className="font-serif text-4xl text-dark mb-2">Ucapan & Doa</h2>
         <img src="/images/gold_line_divider.png" alt="Divider" className="mx-auto w-32 md:w-48 mb-6 mix-blend-multiply opacity-70" />
@@ -42,7 +42,7 @@ const Ucapan = () => {
                   type="text" 
                   value={newName}
                   onChange={(e) => setNewName(e.target.value)}
-                  className="w-full px-4 py-3 bg-[var(--color-cream)] border-none rounded-lg focus:ring-2 focus:ring-[var(--color-gold)] outline-none font-sans text-sm transition-shadow"
+                  className="w-full px-4 py-3 bg-cream border-none rounded-lg focus:ring-2 focus:ring-gold outline-none font-sans text-sm transition-shadow"
                   placeholder="Nama Lengkap"
                   required
                 />
@@ -51,14 +51,14 @@ const Ucapan = () => {
                 <textarea 
                   value={newMessage}
                   onChange={(e) => setNewMessage(e.target.value)}
-                  className="w-full px-4 py-3 bg-[var(--color-cream)] border-none rounded-lg focus:ring-2 focus:ring-[var(--color-gold)] outline-none font-sans text-sm transition-shadow resize-none h-32"
+                  className="w-full px-4 py-3 bg-cream border-none rounded-lg focus:ring-2 focus:ring-gold outline-none font-sans text-sm transition-shadow resize-none h-32"
                   placeholder="Berikan ucapan & doa Anda..."
                   required
                 ></textarea>
               </div>
               <button 
                 type="submit"
-                className="w-full py-3 bg-dark text-white font-sans tracking-widest text-sm uppercase rounded-lg hover:bg-black transition-colors shadow-lg"
+                className="w-full py-3 bg-maroon text-white font-sans tracking-widest text-sm uppercase rounded-lg hover:opacity-90 transition-opacity shadow-lg"
               >
                 Kirim Ucapan
               </button>
@@ -69,7 +69,7 @@ const Ucapan = () => {
           <div className="flex-1 bg-white p-6 rounded-2xl shadow-xl h-[400px] overflow-y-auto" style={{ scrollbarWidth: 'thin' }}>
             <div className="space-y-4">
               {messages.map((msg) => (
-                <div key={msg.id} className="p-4 bg-[var(--color-cream)] rounded-xl border border-[var(--color-cream-dark)] animate-fade-in-up">
+                <div key={msg.id} className="p-4 bg-cream rounded-xl border border-cream-dark animate-fade-in-up">
                   <h4 className="font-bold font-sans text-dark mb-1">{msg.name}</h4>
                   <p className="font-sans text-sm text-gray-600 font-light">{msg.text}</p>
                 </div>

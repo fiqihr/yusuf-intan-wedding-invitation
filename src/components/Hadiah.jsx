@@ -28,7 +28,7 @@ const Hadiah = () => {
 
         <div className="flex flex-col gap-6">
           {banks.map((bank) => (
-            <div key={bank.id} className="bg-[var(--color-cream)] p-6 rounded-2xl shadow-md border border-[var(--color-cream-dark)] flex flex-col items-center">
+            <div key={bank.id} className="bg-cream p-6 rounded-2xl shadow-md border border-cream-dark flex flex-col items-center">
               <h3 className="font-bold font-sans text-xl text-dark mb-2">{bank.name}</h3>
               <p className="font-sans text-lg tracking-wider mb-1">{bank.number}</p>
               <p className="font-sans text-sm text-gray-500 mb-4 font-light">a.n. {bank.holder}</p>
