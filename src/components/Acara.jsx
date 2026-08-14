@@ -21,7 +21,43 @@ const Acara = () => {
       </FadeIn>
 
       <div className='relative z-10 max-w-4xl mx-auto flex flex-col md:flex-row gap-8 justify-center'>
-        {/* Akad Nikah */}
+        {/* Rumah Mempelai Pria */}
+        <FadeIn
+          direction='up'
+          delay={0.2}
+          className='flex-1 bg-white rounded-t-full rounded-b-lg p-12 shadow-xl border-t-8 border-gold flex flex-col items-center'
+        >
+          <h3 className='font-serif text-3xl text-maroon mb-6'>Rumah Mempelai Pria</h3>
+          <div className='font-sans text-gray-700 space-y-4 mb-8 text-lg font-light'>
+            <p className='font-bold text-dark'>20 - 23 Agustus 2026</p>
+            {/* <p>08.00 WIB - Selesai</p> */}
+            <div className='w-12 h-[1px] bg-gray-300 mx-auto my-4'></div>
+            <p className='text-sm'>
+              <strong className='block mb-1 text-dark'>Desa Karanganyar RT 01 RW 03</strong>
+              Kec. Madukara, Kab. Banjarnegara
+            </p>
+          </div>
+        </FadeIn>
+        <FadeIn
+          direction='up'
+          delay={0.2}
+          className='flex-1 bg-white rounded-t-full rounded-b-lg p-12 shadow-xl border-t-8 border-gold flex flex-col items-center'
+        >
+          <h3 className='font-serif text-3xl text-maroon mb-6'>
+            Rumah Mempelai <br /> Wanita
+          </h3>
+          <div className='font-sans text-gray-700 space-y-4 mb-8 text-lg font-light'>
+            <p className='font-bold text-dark'>24 - 28 Agustus 2026</p>
+            {/* <p>08.00 WIB - Selesai</p> */}
+            <div className='w-12 h-[1px] bg-gray-300 mx-auto my-4'></div>
+            <p className='text-sm'>
+              <strong className='block mb-1 text-dark'>Desa Pekauman RT 01 RW 02</strong>
+              Kec. Madukara, Kab. Banjarnegara
+            </p>
+          </div>
+        </FadeIn>
+
+        {/* Akad Nikah & Resepsi */}
         <FadeIn
           direction='up'
           delay={0.2}
@@ -29,30 +65,20 @@ const Acara = () => {
         >
           <h3 className='font-serif text-3xl text-maroon mb-6'>Akad Nikah</h3>
           <div className='font-sans text-gray-700 space-y-4 mb-8 text-lg font-light'>
-            <p className='font-bold text-dark'>Rabu, 5 Mei 2026</p>
+            <p className='font-bold text-dark'>Jumat, 28 Agustus 2026</p>
             <p>08.00 WIB - Selesai</p>
-            <div className='w-12 h-[1px] bg-gray-300 mx-auto my-4'></div>
-            <p className='text-sm'>
-              <strong className='block mb-1 text-dark'>Land of Down</strong>
-              Jl. Jend. Sudirman No. 1, Kota Xyz
-            </p>
+            <div className='w-12 h-[1px] bg-gray-300 mx-auto mt-4'></div>
           </div>
-        </FadeIn>
-
-        {/* Resepsi */}
-        <FadeIn
-          direction='up'
-          delay={0.4}
-          className='flex-1 bg-white rounded-t-full rounded-b-lg p-10 shadow-xl border-t-8 border-gold flex flex-col items-center'
-        >
           <h3 className='font-serif text-3xl text-maroon mb-6'>Resepsi</h3>
           <div className='font-sans text-gray-700 space-y-4 mb-8 text-lg font-light'>
             <p className='font-bold text-dark'>Jumat, 28 Agustus 2026</p>
-            <p>10.00 WIB - 14.00 WIB</p>
+            <p>13.00 WIB - Selesai</p>
             <div className='w-12 h-[1px] bg-gray-300 mx-auto my-4'></div>
             <p className='text-sm'>
-              <strong className='block mb-1 text-dark'>Gedung Pertemuan Sejahtera</strong>
-              Jl. Gatot Subroto No. 45, Kota Xyz
+              <strong className='block mb-1 text-dark'>Surya Yudha Ballroom</strong>
+              Jl. Raya Rejasa No.1, Rejasa,
+              <br />
+              Kec. Madukara, Kab. Banjarnegara
             </p>
           </div>
         </FadeIn>
