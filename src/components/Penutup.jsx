@@ -30,13 +30,14 @@ const Penutup = () => {
       />
 
       <FadeIn className='relative z-10 max-w-2xl mx-auto bg-white/60 backdrop-blur-md p-12 rounded-3xl shadow-sm border border-cream-dark'>
-        <p className='font-sans text-gray-600 font-light leading-relaxed mb-10 text-lg md:text-xl'>
-          "Atas kehadiran saudara/(i) & doa restunya, kami ucapkan terimakasih."
+        <p className='font-sans text-gray-600 font-light leading-relaxed mb-10 text-base md:text-xl'>
+          "Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir dan
+          memberikan doa restu kepada kami." <br /> Terimakasih.
         </p>
 
         <p className='font-sans text-sm tracking-[0.2em] text-gray-400 uppercase mb-4'>Hormat Kami</p>
 
-        <h2 className='font-serif text-5xl md:text-6xl text-dark mb-4'>Intan & Yusuf</h2>
+        <h2 className='font-serif text-5xl md:text-6xl text-dark mb-4'>Yusuf & Intan</h2>
 
         <div className='text-gold text-2xl mt-8'>✧ ✧ ✧</div>
       </FadeIn>

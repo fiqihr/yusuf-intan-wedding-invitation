@@ -2,16 +2,20 @@ import FadeIn from './FadeIn'
 
 const Ayat = () => {
   return (
-    <section 
+    <section
       className='relative py-24 px-6 md:px-12 bg-cover bg-center bg-no-repeat text-center flex flex-col items-center justify-center min-h-[60vh]'
       style={{ backgroundImage: 'url("/images/bg-ayat.jpg")' }}
     >
       {/* Overlay tipis agar teks tetap tajam terbaca */}
       <div className='absolute inset-0 bg-white/40'></div>
-      
+
       <FadeIn className='relative z-10 max-w-3xl mx-auto'>
         {/* Simple floral/ornament divider using unicode or simple shapes */}
-        <div className='text-gold text-2xl mb-8'>✧ ✧ ✧</div>
+        <div className='text-gold text-2xl mb-6'>✧ ✧ ✧</div>
+
+        <p className='font-serif text-3xl md:text-4xl text-dark mb-16' dir='rtl'>
+          بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+        </p>
 
         <h2 className='font-serif text-2xl md:text-3xl text-maroon mb-10'>QS. Ar-Rum Ayat 21</h2>
 

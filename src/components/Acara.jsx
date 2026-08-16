@@ -40,7 +40,7 @@ const Acara = () => {
                 className='absolute -top-10 -left-10 w-32 opacity-10 group-hover:scale-110 transition-transform duration-700 pointer-events-none'
               />
               <h3 className='font-serif text-3xl text-maroon mb-4'>Rumah Mempelai Pria</h3>
-              <p className='font-bold text-dark text-lg mb-4'>20 - 23 Agustus 2026</p>
+              <p className='font-bold text-dark text-lg mb-4'>21 - 23 Agustus 2026</p>
               <p className='font-sans text-sm text-gray-600 leading-relaxed font-light'>
                 <strong className='text-dark font-semibold'>Desa Karanganyar RT 01 RW 03</strong>
                 <br />
@@ -64,7 +64,7 @@ const Acara = () => {
                 className='absolute -bottom-10 -right-10 w-32 opacity-10 group-hover:scale-110 transition-transform duration-700 pointer-events-none'
               />
               <h3 className='font-serif text-3xl text-maroon mb-4'>Rumah Mempelai Wanita</h3>
-              <p className='font-bold text-dark text-lg mb-4'>24 - 28 Agustus 2026</p>
+              <p className='font-bold text-dark text-lg mb-4'>26 - 27 Agustus 2026</p>
               <p className='font-sans text-sm text-gray-600 leading-relaxed font-light'>
                 <strong className='text-dark font-semibold'>Desa Pekauman RT 01 RW 02</strong>
                 <br />
@@ -97,7 +97,7 @@ const Acara = () => {
               <div className='relative z-10'>
                 <h3 className='font-serif text-4xl md:text-5xl text-maroon mb-3'>Akad Nikah</h3>
                 <p className='font-sans font-bold text-dark text-lg mb-1 tracking-wider'>Jumat, 28 Agustus 2026</p>
-                <p className='text-dark/70 text-sm mb-8 font-bold'>08.00 WIB - Selesai</p>
+                <p className='text-dark/70 text-sm mb-8 font-bold'>09.00 WIB - Selesai</p>
 
                 <div className='w-16 h-[1px] bg-maroon/30 mx-auto my-8'></div>
 
@@ -108,9 +108,9 @@ const Acara = () => {
                 <div className='bg-white p-6 md:p-8 rounded-3xl backdrop-blur-md border border-gold/20 mt-10 shadow-sm'>
                   <p className='font-sans text-sm text-dark/80 leading-relaxed font-light'>
                     <strong className='block mb-2 text-maroon text-base  uppercase font-semibold'>
-                      Surya Yudha Ballroom
+                      Rumah Mempelai Wanita
                     </strong>
-                    Jl. Raya Rejasa No.1, Rejasa,
+                    Desa Pekauman RT 01 RW 02
                     <br />
                     Kec. Madukara, Kab. Banjarnegara
                   </p>

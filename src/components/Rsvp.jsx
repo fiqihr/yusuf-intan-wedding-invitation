@@ -14,7 +14,7 @@ const Rsvp = () => {
     }
 
     // Nomor WA penerima (Ganti dengan nomor mempelai, gunakan awalan 62)
-    const noWa = '6287824103668'
+    const noWa = '6283126308211'
 
     let pesan = `Halo, saya *${name}* ingin mengonfirmasi RSVP undangan pernikahan Anda.`
     pesan += `\n\nStatus: *${status === 'hadir' ? 'AKAN HADIR ✅' : 'TIDAK BISA HADIR ❌'}*`
