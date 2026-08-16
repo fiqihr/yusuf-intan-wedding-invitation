@@ -1,4 +1,5 @@
 import FadeIn from './FadeIn'
+import { motion } from 'framer-motion'
 
 const Galeri = () => {
   // Array foto dilengkapi dengan rekomendasi rasio agar mudah di-crop
@@ -19,7 +20,41 @@ const Galeri = () => {
   }
 
   return (
-    <section className='py-24 px-6 bg-cream text-center overflow-hidden'>
+    <section className='relative py-24 px-6 bg-linear-to-b from-white via-cream to-cream bg-cream text-center overflow-hidden'>
+      {/* Top Left Floral Ornament */}
+      <motion.div
+        className='absolute top-0 left-0 w-48 md:w-64 opacity-60 pointer-events-none mix-blend-multiply z-10'
+        initial={{ opacity: 0, x: -50, y: -50 }}
+        whileInView={{ opacity: 0.6, x: 0, y: 0 }}
+        viewport={{ once: true, margin: '-100px' }}
+        transition={{ duration: 1.5, ease: 'easeOut' }}
+      >
+        <motion.img
+          src='/images/floral_corner_tl.png'
+          alt='Floral Ornament'
+          className='w-full'
+          animate={{ y: [0, 15, 0] }}
+          transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
+        />
+      </motion.div>
+
+      {/* Bottom Right Floral Ornament */}
+      <motion.div
+        className='absolute bottom-0 right-0 w-48 md:w-64 opacity-60 pointer-events-none mix-blend-multiply z-10'
+        initial={{ opacity: 0, x: 50, y: 50 }}
+        whileInView={{ opacity: 0.6, x: 0, y: 0 }}
+        viewport={{ once: true, margin: '-100px' }}
+        transition={{ duration: 1.5, ease: 'easeOut', delay: 0.2 }}
+      >
+        <motion.img
+          src='/images/floral_corner_br.png'
+          alt='Floral Ornament'
+          className='w-full'
+          animate={{ y: [0, -15, 0] }}
+          transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
+        />
+      </motion.div>
+
       <FadeIn className='mb-12 relative z-20'>
         <h2 className='font-serif text-4xl md:text-5xl text-dark mb-4'>Galeri</h2>
         <img
@@ -27,11 +62,11 @@ const Galeri = () => {
           alt='Divider'
           className='mx-auto w-32 md:w-48 mb-6 mix-blend-multiply opacity-70'
         />
-        <p className='font-sans text-gray-600 max-w-lg mx-auto font-light'>Momen-momen indah perjalanan kami</p>
+        <p className='font-sans text-gray-600 max-w-lg mx-auto font-light'>Momen-momen indah kami</p>
       </FadeIn>
 
       {/* Bento/Asymmetric Grid Container */}
-      <div className='max-w-4xl mx-auto grid grid-cols-3 gap-2 md:gap-4'>
+      <div className='relative z-20 max-w-4xl mx-auto grid grid-cols-3 gap-2 md:gap-4'>
         {/* Baris 1: 2/3 (Kiri) & 1/3 (Kanan) */}
         <FadeIn
           direction='up'

@@ -21,7 +21,7 @@ const Mempelai = () => {
             className='absolute -top-10 -left-6 md:left-4 w-40 md:w-56 opacity-60 mix-blend-multiply pointer-events-none rotate-[-15deg] z-0'
           />
           <div className='relative z-10 w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden mb-6 border-4 border-white shadow-xl'>
-            <img src='/images/intan.jpeg' alt='Mempelai Wanita' className='w-full h-full object-cover' />
+            <img src='/images/intan-.png' alt='Mempelai Wanita' className='w-full h-full object-cover' />
           </div>
           <h3 className='font-serif text-3xl mb-2 text-maroon'>Intan Nurul Ngaeni</h3>
           <p className='font-sans text-sm text-gray-600 mb-4 font-light'>
@@ -38,7 +38,7 @@ const Mempelai = () => {
         </FadeIn>
 
         {/* Divider */}
-        <FadeIn delay={0.3} className='flex flex-col items-center justify-center my-8 md:my-0'>
+        <FadeIn delay={0.3} className='flex flex-col items-center justify-center my-0 md:my-0'>
           <img
             src='/images/floral_divider.png'
             alt='Floral Divider'
@@ -55,7 +55,7 @@ const Mempelai = () => {
             className='absolute -bottom-10 -right-6 md:right-4 w-40 md:w-56 opacity-60 mix-blend-multiply pointer-events-none scale-x-[-1] rotate-[15deg] z-0'
           />
           <div className='relative z-10 w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden mb-6 border-4 border-white shadow-xl'>
-            <img src='/images/yusuf.jpeg' alt='Mempelai Pria' className='w-full h-full object-cover' />
+            <img src='/images/yusuf-.png' alt='Mempelai Pria' className='w-full h-full object-cover' />
           </div>
           <h3 className='font-serif text-3xl mb-2 text-maroon'>Yusuf Maulana Firmanzah</h3>
           <p className='font-sans text-sm text-gray-600 mb-4 font-light'>
