@@ -74,7 +74,7 @@ const Galeri = () => {
           className='col-span-2 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-md group aspect-[2/1]'
         >
           <img
-            src='/images/galeri-1.JPG'
+            src='/images/galeri-1.jpg'
             alt='Galeri 1'
             className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105'
             onError={(e) => {
@@ -89,7 +89,7 @@ const Galeri = () => {
           className='col-span-1 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-md group aspect-square'
         >
           <img
-            src='/images/galeri-2.JPG'
+            src='/images/galeri-2.jpg'
             alt='Galeri 2'
             className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105'
             onError={(e) => {
@@ -106,7 +106,7 @@ const Galeri = () => {
           className='col-span-1 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-md group aspect-square'
         >
           <img
-            src='/images/galeri-3.JPG'
+            src='/images/galeri-3.jpg'
             alt='Galeri 3'
             className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105'
             onError={(e) => {
@@ -121,7 +121,7 @@ const Galeri = () => {
           className='col-span-2 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-md group aspect-[2/1]'
         >
           <img
-            src='/images/galeri-4.JPG'
+            src='/images/galeri-4.jpg'
             alt='Galeri 4'
             className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105'
             onError={(e) => {
@@ -138,7 +138,7 @@ const Galeri = () => {
           className='col-span-2 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-md group aspect-[2/1]'
         >
           <img
-            src='/images/galeri-5.JPG'
+            src='/images/galeri-5.jpg'
             alt='Galeri 5'
             className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105'
             onError={(e) => {
@@ -153,7 +153,7 @@ const Galeri = () => {
           className='col-span-1 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-md group aspect-square'
         >
           <img
-            src='/images/galeri-6.JPG'
+            src='/images/galeri-6.jpg'
             alt='Galeri 6'
             className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105'
             onError={(e) => {
@@ -170,7 +170,7 @@ const Galeri = () => {
           className='col-span-3 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-md group aspect-[21/9] md:aspect-[3/1]'
         >
           <img
-            src='/images/galeri-7.JPG'
+            src='/images/galeri-7.jpg'
             alt='Galeri 7'
             className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105'
             onError={(e) => {

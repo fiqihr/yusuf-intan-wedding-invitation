@@ -10,6 +10,17 @@ const Cover = ({ onOpen }) => {
     seconds: 0
   })
 
+  const [guestName, setGuestName] = useState('')
+
+  useEffect(() => {
+    // Mengambil parameter nama tamu dari URL (?to=NamaTamu)
+    const params = new URLSearchParams(window.location.search)
+    const to = params.get('to')
+    if (to) {
+      setGuestName(to)
+    }
+  }, [])
+
   useEffect(() => {
     // Target Tanggal: 28 Agustus 2026 (Di set ke jam 08:00 pagi)
     const targetDate = new Date('2026-08-28T08:00:00')
@@ -42,7 +53,7 @@ const Cover = ({ onOpen }) => {
       <div
         className='absolute inset-0 z-0 bg-cover bg-center bg-no-repeat'
         style={{
-          backgroundImage: 'url("/images/cover.JPG")'
+          backgroundImage: 'url("/images/cover.jpg")'
         }}
       >
         {/* Dark Overlay for text readability */}
@@ -103,12 +114,45 @@ const Cover = ({ onOpen }) => {
             </div>
           </FadeIn>
 
+          {guestName && (
+            <FadeIn delay={0.7} direction='up' className='mb-10'>
+              <div
+                className='inline-flex flex-col items-center justify-center rounded-xl px-12 py-4 shadow-xl border border-white/50 bg-cover bg-center relative overflow-hidden opacity-90 backdrop-blur-sm'
+                // style={{ backgroundImage: 'url("/images/bg-ayat.jpg")' }}
+              >
+                {/* Overlay putih transparan tipis agar tekstur lembut */}
+                <div className='absolute inset-0 bg-white/30'></div>
+
+                <span className='relative z-10 text-sm text-white font-serif font-light mb-1'>Dear,</span>
+                <span className='relative z-10 font-sans text-base md:text-xl font-bold text-white drop-shadow-sm capitalize'>
+                  {guestName}
+                </span>
+              </div>
+            </FadeIn>
+          )}
+
           <FadeIn delay={0.8} direction='up'>
             <button
               onClick={onOpen}
               className='px-8 py-3 bg-white text-maroon font-sans tracking-widest text-sm uppercase rounded-full hover:opacity-90 transition-opacity shadow-xl font-bold'
             >
-              Buka Undangan
+              <div className='flex items-center justify-center gap-2'>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  width='18'
+                  height='18'
+                  viewBox='0 0 24 24'
+                  fill='none'
+                  stroke='currentColor'
+                  strokeWidth='2.5'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
+                >
+                  <rect x='2' y='4' width='20' height='16' rx='2' ry='2'></rect>
+                  <path d='M2 4l10 8 10-8'></path>
+                </svg>
+                Buka Undangan
+              </div>
             </button>
           </FadeIn>
         </div>

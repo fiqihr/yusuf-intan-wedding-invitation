@@ -5,28 +5,27 @@ const Journey = () => {
     {
       year: '2017',
       title: 'Pertama Bertemu',
-      // desc: "Pertemuan pertama kami di kampus. Tidak ada yang spesial, hanya teman biasa yang sering mengerjakan tugas bersama.",
-      desc: 'Awalnya coba coba',
-      img: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      desc: 'Berawal dari perkenalan sederhana yang tidak disengaja. Tak pernah menyangka bahwa pertemuan biasa itu menjadi awal dari kisah yang luar biasa bagi kami.',
+      img: './images/2017.jpeg'
     },
-    {
-      year: '2020',
-      title: 'Mulai Dekat',
-      // desc: "Setelah lulus, kami kebetulan bekerja di kota yang sama dan mulai sering menghabiskan waktu bersama di akhir pekan.",
-      desc: 'Lama-lama kok enak.',
-      img: 'https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-    },
+    // {
+    //   year: '2020',
+    //   title: 'Mulai Dekat',
+    //   // desc: "Setelah lulus, kami kebetulan bekerja di kota yang sama dan mulai sering menghabiskan waktu bersama di akhir pekan.",
+    //   desc: 'Lama-lama kok enak.',
+    //   img: 'https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    // },
     {
       year: '2024',
       title: 'Lamaran',
       desc: 'Sebuah kejutan sederhana namun sangat berarti. Dengan restu dari kedua orang tua, kami memutuskan untuk melangkah ke jenjang yang lebih serius.',
-      img: 'https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      img: './images/2024.png'
     },
     {
       year: '2026',
       title: 'Pernikahan',
       desc: 'Tahun ini, kami akan mengikat janji suci. Semoga perjalanan cinta ini selalu diberkahi oleh-Nya.',
-      img: 'https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      img: './images/2026.jpg'
     }
   ]
 

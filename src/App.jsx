@@ -79,7 +79,7 @@ function App() {
       </div>
 
       {/* Musik Latar */}
-      <audio ref={audioRef} src='/music/aku-memilihmu.mp3' loop />
+      <audio ref={audioRef} src='/music/a-thousand-years.mp3' loop />
 
       {/* Floating Button Music */}
       {isOpen && (
