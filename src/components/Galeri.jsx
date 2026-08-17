@@ -4,13 +4,13 @@ import { motion } from 'framer-motion'
 const Galeri = () => {
   // Array foto dilengkapi dengan rekomendasi rasio agar mudah di-crop
   const photos = [
-    { src: '/images/galeri-1.jpg', ratio: 'Rasio 2:1 (Landscape)' }, // Baris 1 Kiri
-    { src: '/images/galeri-2.jpg', ratio: 'Rasio 1:1 (Square)' }, // Baris 1 Kanan
-    { src: '/images/galeri-3.jpg', ratio: 'Rasio 1:1 (Square)' }, // Baris 2 Kiri
-    { src: '/images/galeri-4.jpg', ratio: 'Rasio 2:1 (Landscape)' }, // Baris 2 Kanan
-    { src: '/images/galeri-5.jpg', ratio: 'Rasio 2:1 (Landscape)' }, // Baris 3 Kiri
-    { src: '/images/galeri-6.jpg', ratio: 'Rasio 1:1 (Square)' }, // Baris 3 Kanan
-    { src: '/images/galeri-7.jpg', ratio: 'Rasio 3:1 atau 16:9 (Banner)' } // Baris 4 Full
+    { src: '/images/galeri1.jpg', ratio: 'Rasio 2:1 (Landscape)' }, // Baris 1 Kiri
+    { src: '/images/galeri2.jpg', ratio: 'Rasio 1:1 (Square)' }, // Baris 1 Kanan
+    { src: '/images/galeri3.jpg', ratio: 'Rasio 1:1 (Square)' }, // Baris 2 Kiri
+    { src: '/images/galeri4.jpg', ratio: 'Rasio 2:1 (Landscape)' }, // Baris 2 Kanan
+    { src: '/images/galeri5.jpg', ratio: 'Rasio 2:1 (Landscape)' }, // Baris 3 Kiri
+    { src: '/images/galeri6.jpg', ratio: 'Rasio 1:1 (Square)' }, // Baris 3 Kanan
+    { src: '/images/galeri7.jpg', ratio: 'Rasio 3:1 atau 16:9 (Banner)' } // Baris 4 Full
   ]
 
   // Helper untuk dummy image sesuai dengan rasio box-nya
@@ -74,7 +74,7 @@ const Galeri = () => {
           className='col-span-2 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-md group aspect-[2/1]'
         >
           <img
-            src='/images/galeri-1.jpg'
+            src='/images/galeri1.jpg'
             alt='Galeri 1'
             className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105'
             onError={(e) => {
@@ -89,7 +89,7 @@ const Galeri = () => {
           className='col-span-1 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-md group aspect-square'
         >
           <img
-            src='/images/galeri-2.jpg'
+            src='/images/galeri2.jpg'
             alt='Galeri 2'
             className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105'
             onError={(e) => {
@@ -106,7 +106,7 @@ const Galeri = () => {
           className='col-span-1 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-md group aspect-square'
         >
           <img
-            src='/images/galeri-3.jpg'
+            src='/images/galeri3.jpg'
             alt='Galeri 3'
             className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105'
             onError={(e) => {
@@ -121,7 +121,7 @@ const Galeri = () => {
           className='col-span-2 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-md group aspect-[2/1]'
         >
           <img
-            src='/images/galeri-4.jpg'
+            src='/images/galeri4.jpg'
             alt='Galeri 4'
             className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105'
             onError={(e) => {
@@ -138,7 +138,7 @@ const Galeri = () => {
           className='col-span-2 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-md group aspect-[2/1]'
         >
           <img
-            src='/images/galeri-5.jpg'
+            src='/images/galeri5.jpg'
             alt='Galeri 5'
             className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105'
             onError={(e) => {
@@ -153,7 +153,7 @@ const Galeri = () => {
           className='col-span-1 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-md group aspect-square'
         >
           <img
-            src='/images/galeri-6.jpg'
+            src='/images/galeri6.jpg'
             alt='Galeri 6'
             className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105'
             onError={(e) => {
@@ -170,7 +170,7 @@ const Galeri = () => {
           className='col-span-3 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-md group aspect-[21/9] md:aspect-[3/1]'
         >
           <img
-            src='/images/galeri-7.jpg'
+            src='/images/galeri7.jpg'
             alt='Galeri 7'
             className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105'
             onError={(e) => {

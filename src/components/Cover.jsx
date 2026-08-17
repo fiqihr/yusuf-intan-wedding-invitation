@@ -53,7 +53,7 @@ const Cover = ({ onOpen }) => {
       <div
         className='absolute inset-0 z-0 bg-cover bg-center bg-no-repeat'
         style={{
-          backgroundImage: 'url("/images/cover.jpg")'
+          backgroundImage: 'url("/images/cover-fix.jpg")'
         }}
       >
         {/* Dark Overlay for text readability */}
