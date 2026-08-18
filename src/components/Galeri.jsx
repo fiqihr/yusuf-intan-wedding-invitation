@@ -4,8 +4,7 @@ import { motion } from 'framer-motion'
 const Galeri = () => {
   // Array foto dilengkapi dengan rekomendasi rasio agar mudah di-crop
   const photos = [
-    { src: '/images/galeri1.jpg', ratio: 'Rasio 2:1 (Landscape)' }, // Baris 1 Kiri
-    { src: '/images/galeri2.jpg', ratio: 'Rasio 1:1 (Square)' }, // Baris 1 Kanan
+    { src: '/images/galeri1.jpg', ratio: 'Rasio 3:1 atau 16:9 (Banner)' }, // Baris 1 Full
     { src: '/images/galeri3.jpg', ratio: 'Rasio 1:1 (Square)' }, // Baris 2 Kiri
     { src: '/images/galeri4.jpg', ratio: 'Rasio 2:1 (Landscape)' }, // Baris 2 Kanan
     { src: '/images/galeri5.jpg', ratio: 'Rasio 2:1 (Landscape)' }, // Baris 3 Kiri
@@ -67,11 +66,11 @@ const Galeri = () => {
 
       {/* Bento/Asymmetric Grid Container */}
       <div className='relative z-20 max-w-4xl mx-auto grid grid-cols-3 gap-2 md:gap-4'>
-        {/* Baris 1: 2/3 (Kiri) & 1/3 (Kanan) */}
+        {/* Baris 1: Full Width */}
         <FadeIn
           direction='up'
           delay={0.1}
-          className='col-span-2 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-md group aspect-[2/1]'
+          className='col-span-3 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-md group aspect-[21/9] md:aspect-[3/1]'
         >
           <img
             src='/images/galeri1.jpg'
@@ -79,21 +78,6 @@ const Galeri = () => {
             className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105'
             onError={(e) => {
               e.target.src = getDummyImage(0)
-            }}
-          />
-          <div className='absolute inset-0 bg-maroon/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500'></div>
-        </FadeIn>
-        <FadeIn
-          direction='up'
-          delay={0.2}
-          className='col-span-1 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-md group aspect-square'
-        >
-          <img
-            src='/images/galeri2.jpg'
-            alt='Galeri 2'
-            className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105'
-            onError={(e) => {
-              e.target.src = getDummyImage(1)
             }}
           />
           <div className='absolute inset-0 bg-maroon/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500'></div>
