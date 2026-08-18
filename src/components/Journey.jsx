@@ -25,7 +25,7 @@ const Journey = () => {
       year: '2026',
       title: 'Pernikahan',
       desc: 'Tahun ini, kami akan mengikat janji suci. Semoga perjalanan cinta ini selalu diberkahi oleh-Nya.',
-      img: './images/2026.jpg'
+      img: './images/2026.jpeg'
     }
   ]
 

@@ -67,7 +67,7 @@ const Rsvp = () => {
                 type='number'
                 id='amount'
                 min='1'
-                max='10'
+                max='100'
                 value={amount}
                 onChange={(e) => setAmount(e.target.value)}
                 className='flex-1 bg-transparent px-4 py-3 border-none outline-none font-sans text-sm'

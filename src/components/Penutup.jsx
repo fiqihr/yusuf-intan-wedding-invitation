@@ -3,9 +3,12 @@ import FadeIn from './FadeIn'
 
 const Penutup = () => {
   return (
-    <section className='py-24 px-6 bg-cream text-center relative overflow-hidden flex flex-col items-center justify-center min-h-[60vh]'>
-      {/* Background floral ornament */}
-      <div className="absolute inset-0 opacity-10 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/floral-motif.png')]"></div>
+    <section
+      className='py-24 px-6 text-center relative overflow-hidden flex flex-col items-center justify-center min-h-[60vh] bg-cover bg-center'
+      style={{ backgroundImage: 'url("/images/bg-ayat.jpg")' }}
+    >
+      {/* Overlay transparan agar tekstur kertas tetap terlihat namun teks mudah dibaca */}
+      <div className='absolute inset-0 bg-white/40'></div>
 
       {/* Top Left Floral Ornament */}
       <motion.img
