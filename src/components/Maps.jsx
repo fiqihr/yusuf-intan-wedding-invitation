@@ -11,16 +11,16 @@ const Maps = () => {
       id: 'pria',
       title: 'Rumah Mempelai Pria',
       embed:
-        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7913.870362944694!2d109.73047859999998!3d-7.3611629999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7aa843929cf51f%3A0x5027a76e3552d50!2sKaranganyar%2C%20Kec.%20Madukara%2C%20Kab.%20Banjarnegara%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1787019672558!5m2!1sid!2sid',
-      link: 'https://maps.app.goo.gl/mbWx3Ec5NqPcDGre7?g_st=aw'
+        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.30990390580857!2d109.7332004086627!3d-7.358553124955334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7aa843929cf51f%3A0x5027a76e3552d50!2sKaranganyar%2C%20Kec.%20Madukara%2C%20Kab.%20Banjarnegara%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1787022748040!5m2!1sid!2sid',
+      link: 'https://maps.app.goo.gl/K9YHRga54yyBfMmG6'
     },
     wanita: {
       id: 'wanita',
       title: 'Rumah Mempelai Wanita',
       // Note: Link embed dan href untuk wanita saat ini masih sama persis dengan yang pria, silakan diubah dengan link yang benar
       embed:
-        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15827.308376950965!2d109.73058630486071!3d-7.3732678821763855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7aa861fa3214fb%3A0x9441d0f8d3602690!2sPekauman%2C%20Kec.%20Madukara%2C%20Kab.%20Banjarnegara%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1787020380133!5m2!1sid!2sid',
-      link: 'https://maps.app.goo.gl/8fTU7TmDsKxq44hz8'
+        'https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d247.29972559319697!2d109.7388854!3d-7.3767902!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMjInMzYuMyJTIDEwOcKwNDQnMjAuNCJF!5e0!3m2!1sid!2sid!4v1787022580401!5m2!1sid!2sid',
+      link: 'https://maps.app.goo.gl/weAw9Uu7hHZTjXbb6'
     }
   }
 
